@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'helvetica now display';
+}
+
+/* <!--nav--> */
+.nav {
+    padding: 0px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-size:23px;
+    /* font-style: italic; */
+}
+
+.nav .nr{
+    font-size:25px;
+    display: flex;
+    gap: 10px;
+     
+}
+
+/* <!--stories--> */
+.card {
+    height: 500px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card .stories {
+    width: 100%;
+    /* border-bottom: 1px solid black; */
+    padding: 12.5px 10px;
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.stories::-webkit-scrollbar {
+    display: none;
+}
+
+.scontain {
+    /* display: flex; */
+    text-align: center;
+    font-weight: 100;
+    /* gap: 10px; */
+    /* background-color: pink; */
+    position: relative;
+
+
+}
+
+.scontain h5{
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+}
+
+.stories .story {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 3px solid rgb(239, 21, 94);
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.story img {
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+}
+
+.bl{
+    height: 22px;
+    width: 22px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    left: 53px;
+    top: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
