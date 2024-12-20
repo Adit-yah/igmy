@@ -31,7 +31,7 @@ let my = ` <div class="scontain">
                         <h5>Your Story</h5>
                  </div>`
 
-let othr = ' '
+
 
 arr.forEach(function(elem){
         // console.log(elem);
@@ -49,4 +49,4 @@ console.log(my);
 stories.innerHTML = my
 
 
-// new prop white space
+// new property white space
