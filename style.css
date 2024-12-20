@@ -43,6 +43,7 @@ h1{
     background-color: #fff;
     border-radius: 15px;
     overflow: hidden;
+    /* position: relative; */
 }
 
 .card .stories {
@@ -103,4 +104,40 @@ h1{
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+/* bottom */
+.btm{
+    
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    font-size: 25px;
+    align-items: center;
+    /* background-color: red; */
+    /* position: absolute;
+    bottom: 0%; */
+    
+}
+
+.acc{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: red;
+    overflow: hidden;
+}
+
+.acc_img{
+    height: 100%;
+    width: 100%;
+}
+
+/* middle */
+.content{
+    background-color: red;
+    height: 303px;
+    padding: 0 10px;
 }
